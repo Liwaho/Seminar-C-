@@ -27,7 +27,7 @@ else
 44 5 78 -> 78
 22 3 9 -> 22
 */
-
+/*
 Console.WriteLine("Введите первое число: ");
 int n1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
@@ -55,4 +55,25 @@ else if (n2 > n1)
 else
 {
     Console.WriteLine("Первое и второе число равны.");
+}
+*/
+
+/* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine());
+
+if (number % 2 == 0)
+{
+    Console.WriteLine("Четное число");
+}
+
+if (number != 0);
+{
+    Console.WriteLine("Нечетное число");
 }
