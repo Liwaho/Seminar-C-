@@ -64,7 +64,7 @@ else
 -3 -> нет
 7 -> нет
 */
-
+/*
 Console.WriteLine("Введите число: ");
 int n = int.Parse(Console.ReadLine());
 
@@ -76,4 +76,24 @@ if (number % 2 == 0)
 if (number != 0);
 {
     Console.WriteLine("Нечетное число");
+}
+*/
+
+/* Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+
+Console.WriteLine("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+int a = 0;
+while (a <= number)
+{
+    if (a % 2 == 0)
+    {
+        Console.Write(a + " ");
+    }
+    a = a + 1;
 }
